@@ -88,6 +88,7 @@ Whether the Space stays on top of your profile. Can be useful if you have a lot 
 hf_oauth : boolean
 Whether a connected OAuth app is associated to this Space. See Adding a Sign-In with HF button to your Space for more details.
 
+
 hf_oauth_scopes : List[string] Authorized scopes of the connected OAuth app. openid and profile are authorized by default and do not need this parameter. See Adding a Sign-In with HF button to your space for more details.
 
 hf_oauth_expiration_minutes : int Duration of the OAuth token in minutes. Defaults to 480 minutes (8 hours). Maximum duration is 43200 minutes (30 days). See Adding a Sign-In with HF button to your space for more details.
